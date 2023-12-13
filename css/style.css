@@ -44,8 +44,6 @@ line-height: 76px;
 background: #ffe046;
 }
 .top-col1 h1 {
-width: 419px;
-height: 39px;
 color: #010101;
 font-size: 30px;
 font-weight: 400;
@@ -59,8 +57,6 @@ font-weight: 600;
 line-height: 40px;
 }
 .top-col1 p {
-width: 398px;
-height: 89px;
 color: #646464;
 font-size: 15px;
 font-weight: 400;
@@ -99,18 +95,11 @@ margin-top: 6px;
 .top-card ul li {
 display: flex;
 justify-content: start;
-/* flex-direction:column;
-	align-items:center;
-	*/
 }
 .top-card img {
 width: 64px;
 height: 64px;
-/* fill:#ffd500;
-	*/
 background: #ffe046;
-/* filter:drop-shadow(0px 0px 5px rgba(0,0,0,0.05));
-	*/
 padding: 10px;
 border-radius: 50%;
 margin-left: -20px;
@@ -144,19 +133,15 @@ padding: 40px 0px;
 background: #f2f2f2;
 }
 .sec-col-left .Testimonials h2 {
-width: 233px;
-height: 29px;
 color: #010101;
 font-family: Roboto;
 font-size: 40px;
-font-style: normal;
+
 font-weight: 500;
 line-height: 30px;
 /* 75% */
 }
 .sec-col-left .customer h3 {
-width: 506px;
-height: 77px;
 color: #010101;
 font-family: Roboto;
 font-size: 30px;
@@ -166,8 +151,6 @@ line-height: 40px;
 /* 133.333% */
 }
 .sec-col-left .expirience h3 {
-width: 348px;
-height: 39px;
 color: #010101;
 font-family: Roboto;
 font-size: 30px;
@@ -220,15 +203,10 @@ font-family: Roboto;
 font-size: 18px;
 font-style: normal;
 font-weight: 400;
-width: 497px;
-height: 203px;
-flex-shrink: 0;
 margin-left: -50px;
 }
 .customer h3 {
 margin-left: 5px;
-width: 506px;
-height: 77px;
 color: #010101;
 font-family: Roboto;
 font-size: 30px;
@@ -241,9 +219,6 @@ line-height: 40px;
 margin: 0px 20px;
 }
 .Testimonials {
-width: 233px;
-height: 29px;
-flex-shrink: 0;
 color: #010101;
 font-family: Roboto;
 font-size: 40px;
@@ -1101,5 +1076,62 @@ padding: 0px;
 .left-para p {
 padding: 10px 0px 5px 40px;
 font-size: 14px;
+}
+}
+@media(max-width:400px){
+.top-col1 h1 span {
+font-size: 25px;
+font-weight: 600;
+line-height: 50px;
+}
+.top-col1 p {
+color: #646464;
+font-size: 14px;
+font-weight: 300;
+line-height: 28px;
+}
+.sec-col-left .customer h3 {
+font-size: 18px;
+/* margin-left: 10px; */
+display: flex;
+justify-content: center;
+line-height: 30px;
+}
+.sec-col-left .Testimonials h2 {
+font-size: 30px;
+line-height: 35px;
+margin: 0px;
+}
+.sec-col-left .expirience h3 {
+font-size: 25px;
+line-height: 60px;
+}
+.sec-col-left .expirience img{
+line-height: 20px;
+}
+.expirience {
+margin:-20px 0px 0px 5px;
+}
+.left-para p {
+padding: 20px 0px 5px 30px;
+font-size: 15px;
+}
+.download-cards {
+display: none;
+}
+.appstore-card-top {
+display: none;
+}
+.download-cards2{
+display: none;
+}
+.appstore-card-top2{
+display: none;
+}
+.download-sheet-top {
+display: none;
+}
+.button-card-three {
+display: none;
 }
 }
